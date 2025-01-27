@@ -5,6 +5,9 @@
 	color: #2A1951; */
 }
 
+div{
+    margin-bottom: 1em;
+}
 
 h1 {
     font-size: 3em;
@@ -27,8 +30,8 @@ li {
 }
 
 main{
- margin:0 auto;
- 
+ margin:0 10%;
+
 }
 
 details{
@@ -47,22 +50,53 @@ details{
     justify-content: space-between;
 }
 
+.informationdk{
+    text-align: right;
+}
+
 .forsubscribers{
-    display:flex;
-    justify-content: space-between;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
 }
 
 footer{
+    height: 600px;
     display:flex;
+    grid-template-columns: repeat(4, 1fr);
     background-color: grey;
 }
 
+footer button{
+    max-width: 85px;
+    max-height: 50px;
+}
+
 .agree{
-   
-    text-align: center;
+   text-align: center;
+   padding-bottom: 2em;
 }
 
 .agree button{
     color: white;
     background-color: red;
 }
+
+.didyoureadhead{
+    color: red;
+    padding-bottom: 1em;
+}
+
+.datecomments{
+    display: flex;
+    justify-content: space-between;
+}
+/* 
+.date{
+   margin-left:0;
+padding-right: 40%;
+}
+
+.comments{
+    margin-right: 0;
+} */
