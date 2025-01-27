@@ -18,6 +18,10 @@ li {
     list-style-type: none;
 }
 
+a{
+    text-decoration: none !important;
+}
+
 .burger {
     display: flex;
 }
@@ -30,7 +34,7 @@ li {
 }
 
 main{
- margin:0 10%;
+ margin:0 20%;
 
 }
 
@@ -38,11 +42,22 @@ details{
     font-size: 0.4em;
 }
 
+.russia{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
 .mainarticle__figure{
     display: flex;
     flex-direction: row-reverse;
     row-gap: 20%;
     margin-top: 1em;
+}
+
+.mainarticle__figure figcaption{
+    font-size: 0.7em;
 }
 
 .didyouread{
@@ -58,6 +73,29 @@ details{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
+}
+
+.facebook{
+    color: white;
+    background-color: darkblue;
+    margin-right: 1em;
+    padding: 0.2em;
+}
+
+.x{
+    color: white;
+    background-color: lightblue;
+    text-align: center;
+    margin-right: 1em;
+    padding: 0.2em;
+
+}
+
+.email{
+    color: white;
+    background-color: lightgrey;
+    padding: 0.2em;
+
 }
 
 footer{
@@ -77,19 +115,26 @@ footer button{
    padding-bottom: 2em;
 }
 
-.agree button{
+.agree > button{
     color: white;
     background-color: red;
+    padding: 0.5em;
+    margin: 1em;
 }
 
 .didyoureadhead{
     color: red;
+ 
     padding-bottom: 1em;
 }
 
 .datecomments{
     display: flex;
     justify-content: space-between;
+}
+
+.comments{
+    justify-self: end;
 }
 /* 
 .date{
