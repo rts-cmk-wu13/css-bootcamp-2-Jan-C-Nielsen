@@ -35,6 +35,34 @@ details{
     font-size: 0.4em;
 }
 
-figure{
+.mainarticle__figure{
     display: flex;
+    flex-direction: row-reverse;
+    row-gap: 20%;
+    margin-top: 1em;
+}
+
+.didyouread{
+    display:flex;
+    justify-content: space-between;
+}
+
+.forsubscribers{
+    display:flex;
+    justify-content: space-between;
+}
+
+footer{
+    display:flex;
+    background-color: grey;
+}
+
+.agree{
+   
+    text-align: center;
+}
+
+.agree button{
+    color: white;
+    background-color: red;
 }
